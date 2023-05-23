@@ -44,7 +44,7 @@
                     </li>
                 </ul>
                 <div class="header-icon d-flex">
-                    <a href="shopping-cart.asp" class="icon-shopping-cart" style="color: #fff; margin-left: 20px; padding: 8px;"><i class="fa fa-shopping-cart icon_cart"></i></a>
+                    <a href="shopping.asp" class="icon-shopping-cart" style="color: #fff; margin-left: 20px; padding: 8px;"><i class="fa fa-shopping-cart icon_cart"></i></a>
                     <%
                         If (NOT isnull(Session("email"))) AND (Trim(Session("email")) <> "") Then
                             ' true
