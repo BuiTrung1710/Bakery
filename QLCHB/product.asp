@@ -1,5 +1,5 @@
+<!-- #include file="connect.asp" -->
 <!--#include file="layouts/header.asp"-->
-<!--#include file="connect.asp"-->
 <%
     ' code here to retrive the data from product table
     Dim sqlString, rs
@@ -80,7 +80,7 @@
                             <a href="" class="detail-product pull-right"><i class="fa-solid fa-circle-info"></i></a>
                         </div>
                     </div>
-    
+
                     <!-- <div class="col-xs-1 col-md-3 productOfIndex">
                         <div class="box">
                             <img src="https://product.hstatic.net/200000411281/product/1-03_9153eb9828514f419bdccc9dbe49e410_master.jpg" alt="" class="img-responsive img-sp">
@@ -116,6 +116,7 @@
                             <a href="" class="detail-product pull-right"><i class="fa-solid fa-circle-info"></i></a>
                         </div>
                     </div> -->
+
                     <%
                     rs.MoveNext
                     loop
@@ -127,6 +128,12 @@
 
                 <div class="col-xs-1 col-md-3 productOfIndex">
                     <div class="box">
+                %> 
+                </div>                
+                <div class="row">
+                    <div class="col-xs-1 col-md-3 productOfIndex">
+                        <div class="box">
+
                         <img src="https://product.hstatic.net/200000411281/product/rosie_love_24e1cc3a3aab4b65a82a2d080e4d2785_master.png" alt="" class="img-responsive img-sp">
                     </div>
                     <div class="detail-box">
@@ -172,8 +179,12 @@
                         <a href="" class="detail-product pull-right"><i class="fa-solid fa-circle-info"></i></a>
                     </div>
                 </div>
+
             </div>
             <div class="row">
+
+            </div> -->
+            <!-- <div class="row">
 
                 <div class="col-xs-1 col-md-3 productOfIndex">
                     <div class="box">
@@ -222,6 +233,7 @@
                         <a href="" class="detail-product pull-right"><i class="fa-solid fa-circle-info"></i></a>
                     </div>
                 </div>
+
             </div> 
 
             </div>-->
@@ -251,11 +263,6 @@
             %>
         </ul>
     </nav>
-    
-
     <!-- End block content -->
 </main>
-    
-
-
 <!--#include file="layouts/footer.asp"-->
