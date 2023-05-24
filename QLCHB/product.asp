@@ -55,6 +55,7 @@
 
     <!-- Giải thuật duyệt và render Danh sách sản phẩm theo dòng, cột của Bootstrap -->
         <div class="danhsachsanpham py-5 bg-light">
+
             <div class="container">
                 <div class="row">          
                     <%
@@ -116,7 +117,6 @@
                             <a href="" class="detail-product pull-right"><i class="fa-solid fa-circle-info"></i></a>
                         </div>
                     </div> -->
-
                     <%
                     rs.MoveNext
                     loop
@@ -128,12 +128,6 @@
 
                 <div class="col-xs-1 col-md-3 productOfIndex">
                     <div class="box">
-                %> 
-                </div>                
-                <div class="row">
-                    <div class="col-xs-1 col-md-3 productOfIndex">
-                        <div class="box">
-
                         <img src="https://product.hstatic.net/200000411281/product/rosie_love_24e1cc3a3aab4b65a82a2d080e4d2785_master.png" alt="" class="img-responsive img-sp">
                     </div>
                     <div class="detail-box">
@@ -179,13 +173,11 @@
                         <a href="" class="detail-product pull-right"><i class="fa-solid fa-circle-info"></i></a>
                     </div>
                 </div>
-
             </div>
             <div class="row">
 
             </div> -->
             <!-- <div class="row">
-
                 <div class="col-xs-1 col-md-3 productOfIndex">
                     <div class="box">
                         <img src="https://product.hstatic.net/200000411281/product/3_0ce516afdfce46df8af5780791947af0_grande.png" alt="" class="img-responsive img-sp">
@@ -266,3 +258,4 @@
     <!-- End block content -->
 </main>
 <!--#include file="layouts/footer.asp"-->
+
